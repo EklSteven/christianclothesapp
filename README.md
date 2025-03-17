@@ -61,14 +61,12 @@ MONGO_URI=mongodb://localhost:27017/christianclothesapp
 ### Utilisation
 
 Démarrer le frontend
-     ```sh
-     cd christianclothesapp
-    npm start
+cd christianclothesapp
+npm start
 
 Démarrer le backend
-    ```sh
-    cd ../server
-    npm run dev
+cd ../server
+npm run dev
 
 ### Accéder à l'application
 

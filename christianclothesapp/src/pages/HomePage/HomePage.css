@@ -1,0 +1,97 @@
+.homepage {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .hero {
+    position: relative;
+    background-color: #d6cea2;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .cta-button {
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #ffd700;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-block; /* Assure une bonne mise en forme */
+  }
+  
+  .cta-button:hover {
+    background: #e6c200;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #f5f5f5;
+  }
+  
+  .feature {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .personalisation {
+    padding: 50px 20px;
+    background: #fff;
+  }
+  
+  .personalisation h2 {
+    margin-bottom: 30px;
+  }
+  
+  .techniques-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .technique {
+    text-align: center;
+  }
+  
+  .technique img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .technique h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .technique .broderie-icon,
+  .technique .serigraphie-icon,
+  .technique .impression-icon {
+    width: 50px;
+    height: auto;
+  }
